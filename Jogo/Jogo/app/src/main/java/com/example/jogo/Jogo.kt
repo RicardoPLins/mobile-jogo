@@ -25,7 +25,7 @@ class Jogo(private var numeroMenor: Int, private var numeroMaior: Int) {
     }
 
     fun chute(numero: Int){
-        if ((numero <= numeroMenor) || (numero >= numeroMaior)) {
+        if ((numero <= numeroMenor) || (numero >= numeroMaior) || (numeroMaior-2 == numeroMenor) {
             status = "Game Over"
             }
             else if (numero > numeroEscolhido) {
